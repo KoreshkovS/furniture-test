@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-SemiBoldCondensed.woff2') format('woff2'),
+        url('ProximaNova-SemiBoldCondensed.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-RegularCondensed.woff2') format('woff2'),
+        url('ProximaNova-RegularCondensed.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-Bold.woff2') format('woff2'),
+        url('ProximaNova-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('ProximaNova-ExtraBoldCondensed.woff2') format('woff2'),
+        url('ProximaNova-ExtraBoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cuprum';
+    src: url('Cuprum-Regular.woff2') format('woff2'),
+        url('Cuprum-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

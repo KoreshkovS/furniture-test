@@ -1,0 +1,16 @@
+body {
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.25;
+
+  color: $blackColor;
+}
+[class*="__container"] {
+  max-width: 1848px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+[class*="__title"] {
+  font-weight: 700;
+}

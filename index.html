@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furnitune test</title>
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__top">
+        <div class="top__container">
+          <div class="header__social social">
+            <p class="social__text">Ми в соціальних мережах:</p>
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <svg class="social__icon">
+                    <use href="./images/icons/icons.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <svg class="social__icon">
+                    <use href="./images/icons/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <svg class="social__icon">
+                    <use href="./images/icons/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__phone phone"></div>
+          <img
+            src="./images/header/smartphone.svg"
+            alt="smartphone"
+            class="phone__logo"
+          />
+          <a href="tel:(099) 111 22 33" class="phone__link">(099) 111 22 33</a>
+
+          <button
+            type="button"
+            class="menu-button"
+            aria-expanded="false"
+            aria-controls="menu-container"
+            data-menu-button
+          >
+            <svg width="40" height="40" class="mobile-menu-icon">
+              <use
+                class="icon-cross"
+                href="./images/icons/icons.svg#cross"
+              ></use>
+              <use class="icon-menu" href="./images/icons/icons.svg#menu"></use>
+            </svg>
+          </button>
+
+          <div class="menu-container" id="menu-container" data-menu>
+            <nav class="navigation">
+              <ul class="navigation__list">
+                <li class="navigation__item">
+                  <a href="" class="navigation__link active">Головна</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="" class="navigation__link">АкцІї</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="" class="navigation__link">Доставка та оплата</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="" class="navigation__link">про нас</a>
+                </li>
+                <li class="navigation__item">
+                  <a href="" class="navigation__link">контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="bottom__container">
+          <button
+            type="button"
+            class="shop-button"
+            aria-expanded="false"
+            aria-controls="shop-container"
+            data-menu-button
+          >
+            <svg width="40" height="40" class="shop-icon">
+              <use
+                class="shop__cross"
+                href="./images/icons/icons.svg#cross"
+              ></use>
+              <use
+                class="shop__menu"
+                href="./images/icons/icons.svg#menu"
+              ></use>
+            </svg>
+          </button>
+
+          <div class="shop-container" id="shop-container" data-shop>
+            <ul class="shop__list">
+              <li class="shop__item">
+                <a href="" class="shop__link"
+                  >Дивани<svg class="shop__icon">
+                    <use href="./images/icons/icons.svg#arrow"></use></svg></a>
+              </li>
+              <li class="shop__item">
+                <a href="" class="shop__link"
+                  >ліжка<svg class="shop__icon">
+                    <use href="./images/icons/icons.svg#arrow"></use></svg></a>
+              </li>
+              <li class="shop__item">
+                <a href="" class="shop__link"
+                  >Крісла<svg class="shop__icon">
+                    <use href="./images/icons/icons.svg#arrow"></use></svg></a>
+              </li>
+              <li class="shop__item">
+                <a href="" class="shop__link"
+                  >комоди<svg class="shop__icon">
+                    <use href="./images/icons/icons.svg#arrow"></use></svg></a>
+              </li>
+              <li class="shop__item">
+                <a href="" class="shop__link"
+                  >шафи<svg class="shop__icon">
+                    <use href="./images/icons/icons.svg#arrow"></use></svg></a>
+              </li>
+              <li class="shop__item">
+                <a href="" class="shop__link"
+                  >Кухня<svg class="shop__icon">
+                    <use href="./images/icons/icons.svg#arrow"></use></svg></a>
+              </li>
+            </ul>
+          </div>
+
+          <a href="" class="header__logo logo">
+            <img src="./images/icons/logo.svg" alt="logo" class="logo__icon" />
+            <p class="logo__text"><span class="accent">F</span>urniture.test</p>
+          </a>
+
+          <div class="header__shopping">
+            <a href="" class="header__cart cart">
+              <img
+                src="./images/header/cart.svg"
+                alt="cart"
+                class="cart__logo"
+              />
+              <p class="cart__text">Кошик</p>
+            </a>
+            <button class="header__button button">Замовити дзвінок</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__container">
+          <div class="hero__content">
+            <h1 class="hero__title">Магазин меблів</h1>
+            <h2 class="hero__subtitle">Новинка!</h2>
+            <h3 class="hero__name">Ліжко Ornella</h3>
+            <p class="hero__text">Це новий рівень комфортного сну</p>
+            <button class="hero__button button">Детальніше</button>
+          </div>
+        </div>
+      </section>
+
+      
+    </main>
+
+    <footer class="footer"></footer>
+
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>
