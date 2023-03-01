@@ -24,6 +24,10 @@
     width: 15px;
     background-color: #44c697;
   }
+
+  @media screen and (max-width: 767.98px) {
+    padding: 30px 10px;
+  }
 }
 .hero__title {
   position: absolute;
@@ -46,6 +50,11 @@
   text-align: center;
 
   margin-bottom: 50px;
+
+  @media screen and (max-width: 479.98px) {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
 }
 .hero__name {
   font-weight: 700;
@@ -54,6 +63,10 @@
   text-align: center;
 
   margin-bottom: 10px;
+
+  @media screen and (max-width: 479.98px) {
+    font-size: 26px;
+  }
 }
 .hero__text {
   font-size: 36px;
@@ -61,6 +74,11 @@
   text-align: center;
 
   margin-bottom: 30px;
+
+  @media screen and (max-width: 479.98px) {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
 }
 .hero__button {
   display: block;
