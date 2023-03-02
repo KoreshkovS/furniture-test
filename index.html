@@ -38,12 +38,12 @@
             </ul>
           </div>
           <div class="header__phone phone"></div>
-          <img
+          
+          <a href="tel:(099) 111 22 33" class="phone__link"><img
             src="./images/header/smartphone.svg"
             alt="smartphone"
             class="phone__logo"
-          />
-          <a href="tel:(099) 111 22 33" class="phone__link">(099) 111 22 33</a>
+          />(099) 111 22 33</a>
 
           <button
             type="button"
@@ -406,21 +406,23 @@
       <section class="about">
         <div class="about__container">
           <div class="about__cover">
-            Про нас
-            <h2 class="about__title"></h2>
+            <h2 class="about__title">Про нас</h2>
           </div>
-          <div class="about__content">
+        </div>
+        <div class="about__content">
+          <div class="lists__container">
             <ul class="about__list">
               <li class="about__item">
                 <p class="about__text">
-                  "Furniture" – "Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                  consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-                  sint occaecat cupidatat non proident, sunt in culpa qui
-                  officia deserunt mollit anim id est laborum."
+                  <span class="about__accent accent">"Furniture"</span> – "Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                  enim ad minim veniam, quis nostrud exercitation ullamco
+                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                  irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                  cupidatat non proident, sunt in culpa qui officia deserunt
+                  mollit anim id est laborum."
                 </p>
               </li>
               <li class="about__item">
@@ -448,9 +450,134 @@
           </div>
         </div>
       </section>
+
+      <section class="questions">
+        <div class="questions__cover">
+          <h2 class="questions__title">Залишились питання?</h2>
+        </div>
+
+        <div class="questions__content content">
+          <div class="content__wrapper">
+            <h4 class="content__title">Замовте консультацію</h4>
+            <form class="content__form form">
+              <div class="form__item">
+                <input
+                  type="text"
+                  name="name"
+                  class="form__input"
+                  placeholder="Віталій"
+                  id="name-id"
+                />
+                <label for="name-id" class="form__label"></label>
+              </div>
+              <div class="form__item">
+                <input
+                  type="tel"
+                  name="telephone"
+                  class="form__input"
+                  placeholder="Номер телефону"
+                  id="telephone-id"
+                />
+                <label for="telephone-id" class="form__label"></label>
+              </div>
+              <button type="submit" class="form__button button">
+                Відправити
+              </button>
+            </form>
+
+            <p class="content__text">
+              Залиште заявку або телефонуйте за номером
+              <a href="tel:(099) 111 22 33" class="content__link"
+                >(099) 111 22 33</a
+              >, і наш менеджер звяжеться з вами для кваліфікованої
+              консультації.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="footer__container">
+         <a href="" class="footer__logo logo">
+            <img src="./images/icons/logo.svg" alt="logo" class="logo__icon" />
+            <p class="logo__text"><span class="accent">F</span>urniture.test</p>
+          </a>
+
+          <div class="footer__content">
+            <div class="footer__lists">
+              <ul class="footer__list">
+                <li class="footer__item"><a href="" class="footer__link">Дивани</a></li>
+                <li class="footer__item"><a href="" class="footer__link">ліжка</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Крісла</a></li>
+                <li class="footer__item"><a href="" class="footer__link">шафи</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Кухні</a></li>
+                <li class="footer__item"><a href="" class="footer__link">комоди</a></li>
+              </ul>
+              <ul class="footer__list">
+                <li class="footer__item"><a href="" class="footer__link">АкцІї</a></li>
+                <li class="footer__item"><a href="" class="footer__link">Доставка та оплата</a></li>
+                <li class="footer__item"><a href="" class="footer__link">про нас</a></li>
+                <li class="footer__item"><a href="" class="footer__link">контакти</a></li>
+              </ul>
+            </div>
+            <div class="footer__place">
+              <address class="footer__address address">
+                <a href="" class="address__map">TEST
+                  <svg class="adress__icon">
+                  <use href=""></use>
+                  </svg>
+                </a>
+                <a href="" class="address__map">Пн-Пт, з 10 до 18
+                  <svg class="adress__icon">
+                  <use href=""></use>
+                  </svg>
+                </a>
+                <a href="" class="address__map">(099) 111 22 33 (099) 222 33 44
+                  <svg class="adress__icon">
+                  <use href=""></use>
+                  </svg>
+                </a>
+              </address>
+              <div class="footer__social social">
+            <p class="social__text">Ми в соціальних мережах:</p>
+            <ul class="social__list">
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <svg class="social__icon white">
+                    <use href="./images/icons/icons.svg#telegram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <svg class="social__icon white">
+                    <use href="./images/icons/icons.svg#facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="social__item">
+                <a href="" class="social__link">
+                  <svg class="social__icon white">
+                    <use href="./images/icons/icons.svg#instagram"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+            </div>
+
+          </div>
+
+        <div class="footer__bottom">
+          <p class="footer__copy">© ТОВ Furniture, працюємо з 2006 року</p>
+          <a href="" class="footer__advertising advertising">
+            <img src="" alt="" class="advertising__image">
+            Глянець — розробка інтернет-магазинів
+          </a>
+        </div>
+      </div>
+    </footer>
 
     <script src="./js/mobile-menu.js"></script>
   </body>
