@@ -550,7 +550,7 @@ body {
 }
 
 .hero {
-  background-image: url(./../../images/hero/hero-bg.jpg);
+  background-image: url(../././images/hero/hero-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -1180,7 +1180,7 @@ body {
 
 .about__content {
   width: 100%;
-  background-image: url(../../images/about/about-bg.jpg);
+  background-image: url(../././images/about/about-bg.jpg);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -1316,7 +1316,7 @@ body {
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  background-image: url(../../images/questions/questions-bg.jpg);
+  background-image: url(../././images/questions/questions-bg.jpg);
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -1385,7 +1385,7 @@ body {
 
 .footer {
   background-color: #1e2e36;
-  background-image: url(../../images/footer/footer-bg.jpg);
+  background-image: url(../././images/footer/footer-bg.jpg);
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
