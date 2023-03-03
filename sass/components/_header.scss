@@ -87,7 +87,7 @@
 }
 .menu-button {
   display: none;
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 870.98px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -108,7 +108,7 @@
 }
 .menu-container {
   margin-left: auto;
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 870.98px) {
     display: none;
 
     position: absolute;
