@@ -370,7 +370,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
-@media screen and (max-width: 1299.98px) {
+@media screen and (max-width: 1315.98px) {
   .bottom__container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
