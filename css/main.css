@@ -131,7 +131,7 @@ body {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 870.98px) {
   .top__container {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -180,7 +180,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
 }
-@media screen and (max-width: 818.98px) {
+@media screen and (max-width: 870.98px) {
   .social__link {
     width: 30px;
     height: 30px;
@@ -209,7 +209,7 @@ body {
 .phone__logo {
   width: 24px;
 }
-@media screen and (max-width: 818.98px) {
+@media screen and (max-width: 870.98px) {
   .phone__logo {
     display: none;
   }
