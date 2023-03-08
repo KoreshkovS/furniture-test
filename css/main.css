@@ -75,21 +75,21 @@ button {
 }
 @font-face {
   font-family: "Proxima Nova";
-  src: url("../../fonts/ProximaNova-Bold.woff2") format("woff2"), url("../../fonts/ProximaNova-Bold.woff") format("woff");
+  src: url("../././fonts/ProximaNova-Bold.woff2") format("woff2"), url("../././fonts/ProximaNova-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Proxima Nova";
-  src: url("../../fonts/ProximaNova-ExtraBoldCondensed.woff2") format("woff2"), url("../../fonts/ProximaNova-ExtraBoldCondensed.woff") format("woff");
+  src: url("../././fonts/ProximaNova-ExtraBoldCondensed.woff2") format("woff2"), url("../././fonts/ProximaNova-ExtraBoldCondensed.woff") format("woff");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Cuprum";
-  src: url("../../fonts/Cuprum-Regular.woff2") format("woff2"), url("../../fonts/Cuprum-Regular.woff") format("woff");
+  src: url("../././fonts/Cuprum-Regular.woff2") format("woff2"), url("../././fonts/Cuprum-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -1539,6 +1539,9 @@ body {
 .address__map:hover, .address__map:focus {
   color: #44c697;
 }
+.address__map:last-child {
+  margin-left: 24px;
+}
 
 .adress__icon {
   width: 24px;
@@ -1552,10 +1555,6 @@ body {
 .address__map:hover .adress__icon, .address__map:focus .adress__icon {
   fill: #44c697;
   stroke: #44c697;
-}
-
-.phone.adress__icon {
-  width: 34px;
 }
 
 .footer__social {
