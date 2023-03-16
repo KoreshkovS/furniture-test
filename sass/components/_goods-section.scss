@@ -90,8 +90,6 @@
   &.categories__link::after {
     transform: scale(1, 1);
   }
-
-  
 }
 .categories__logo {
   width: 100px;
@@ -136,14 +134,16 @@
 .goods__item {
   position: relative;
   max-width: 586px;
-
-  transition: transform 250ms ease;
-  &:hover {
-    transform: translateY(-25px);
-  }
 }
 .goods__link {
+  display: block;
   width: 100%;
+
+  transition: transform 250ms ease;
+  .goods__item:hover &,
+  .goods__item:focus & {
+    transform: translateY(-25px);
+  }
 }
 .goods__image {
   width: 100%;

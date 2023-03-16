@@ -793,11 +793,15 @@ body {
 
 .features__text {
   max-width: 89%; /* 526/586 */
-  -webkit-transition: -webkit-transform 250ms ease;
-  transition: -webkit-transform 250ms ease;
-  transition: transform 250ms ease;
-  transition: transform 250ms ease, -webkit-transform 250ms ease;
+  opacity: 0;
+  -webkit-transition: opacity 250ms ease, -webkit-transform 250ms ease;
+  transition: opacity 250ms ease, -webkit-transform 250ms ease;
+  transition: transform 250ms ease, opacity 250ms ease;
+  transition: transform 250ms ease, opacity 250ms ease, -webkit-transform 250ms ease;
   color: #ffffff;
+}
+.features__link:hover .features__text, .features__link:focus .features__text {
+  opacity: 1;
 }
 
 .goods {
@@ -977,18 +981,19 @@ body {
 .goods__item {
   position: relative;
   max-width: 586px;
+}
+
+.goods__link {
+  display: block;
+  width: 100%;
   -webkit-transition: -webkit-transform 250ms ease;
   transition: -webkit-transform 250ms ease;
   transition: transform 250ms ease;
   transition: transform 250ms ease, -webkit-transform 250ms ease;
 }
-.goods__item:hover {
+.goods__item:hover .goods__link, .goods__item:focus .goods__link {
   -webkit-transform: translateY(-25px);
           transform: translateY(-25px);
-}
-
-.goods__link {
-  width: 100%;
 }
 
 .goods__image {
