@@ -61,14 +61,14 @@ button {
 
 @font-face {
   font-family: "Proxima Nova";
-  src: url("../../fonts/ProximaNova-SemiBoldCondensed.woff2") format("woff2"), url("../../fonts/ProximaNova-SemiBoldCondensed.woff") format("woff");
+  src: url("../././fonts/ProximaNova-SemiBoldCondensed.woff2") format("woff2"), url("../././fonts/ProximaNova-SemiBoldCondensed.woff") format("woff");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Proxima Nova";
-  src: url("../../fonts/ProximaNova-RegularCondensed.woff2") format("woff2"), url("../../fonts/ProximaNova-RegularCondensed.woff") format("woff");
+  src: url("../././fonts/ProximaNova-RegularCondensed.woff2") format("woff2"), url("../././fonts/ProximaNova-RegularCondensed.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -294,7 +294,7 @@ body {
           justify-content: center;
   gap: 15px;
 }
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 870.98px) {
   .navigation__list {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -313,7 +313,7 @@ body {
     font-size: 16px;
   }
 }
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 870.98px) {
   .navigation__item {
     width: 100%;
     text-align: center;
@@ -343,7 +343,7 @@ body {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 870.98px) {
   .navigation__link {
     display: block;
     width: 100%;

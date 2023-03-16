@@ -131,7 +131,7 @@
   justify-content: center;
   gap: 15px;
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 870.98px) {
     flex-direction: column;
     width: 100%;
   }
@@ -145,7 +145,7 @@
     font-size: 16px;
   }
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 870.98px) {
     width: 100%;
     text-align: center;
   }
@@ -169,7 +169,7 @@
     transform: scale(1, 1);
   }
 
-  @media screen and (max-width: 767.98px) {
+  @media screen and (max-width: 870.98px) {
     display: block;
     width: 100%;
     padding: 15px 0;
